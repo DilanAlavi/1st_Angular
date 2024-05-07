@@ -10,6 +10,7 @@ export const routes: Routes = [
     {path:'tienda',component:TiendaComponent},
     {path:'nosotros',component:NosotrosComponent},
     {path:'contactanos',component:ContactanosComponent},
-    {path:'**',component:PaginaNoEncontradaComponent},
-    {path: '',redirectTo:'inicio',pathMatch:'full'}
+    {path: '',redirectTo:'inicio',pathMatch:'full'},
+    {path:'**',component:PaginaNoEncontradaComponent}
+    
 ];

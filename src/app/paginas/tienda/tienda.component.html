@@ -1,2 +1,11 @@
-<p>tienda works!</p>
-<app-producto [product]="producto"></app-producto>
+
+<div class="contenedor-productos">
+    @for ( producto of listaDeProductos; track producto.id){
+      <div>
+        <app-producto [product]="producto" ></app-producto>
+      </div>
+    } @empty {
+      <p>No existen productos</p>
+    }
+   </div>
+   
