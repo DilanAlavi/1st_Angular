@@ -9,71 +9,71 @@ export class ProductoService {
  listaDeProductos: Product[] = [
    {
      id: 1,
-     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-     price: 109.95,
-     description: "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+     title: "OLEVS Relojes Automáticos",
+     price: 300,
+     description: "Diseño innovador de la esfera: el tourbillon se combina con la ventana de fase lunar y la exhibición de la fecha del día, el logotipo de la corona honorable, bien diseñado en el diseño de la esfera, elementos exquisitos de vestir, cuidadosamente tallados, resaltan la belleza general, le ofrece una nueva experiencia visual y la mejor calidad de la marca.",
      category: "men's clothing",
-     image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+     image: "https://m.media-amazon.com/images/I/71LFOpzmgtL._AC_SY675_.jpg",
      rating: {
-       "rate": 3.9,
-       "count": 120
+       "rate": 5,
+       "count": 125
      }
    },
    {
      id: 2,
-     title: "Mens Casual Premium Slim Fit T-Shirts ",
-     price: 22.3,
-     description: "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+     title: "AKNIGHT Men Watches ",
+     price: 42.3,
+     description: "Reloj de acero inoxidable: los relojes AKNIGHT para hombre son una colección de relojes plateados de diseño clásico para hombre. 100% cristal sólido y alta calidad reloj de lujo de acero inoxidable con diseño innovador de mano y esfera azul única. ",
      category: "men's clothing",
-     image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+     image: "https://m.media-amazon.com/images/I/71GDnjMyvGL._AC_SY675_.jpg",
      rating: {
-       "rate": 4.1,
-       "count": 259
+       "rate": 4.2,
+       "count": 359
      }
    },
    {
      id: 3,
-     title: "Mens Cotton Jacket",
-     price: 55.99,
-     description: "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-     category: "men's clothing",
-     image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+     title: "COACH Reloj Elliot para mujer",
+     price: 95.99,
+     description: "Recisión de cuarzo: el movimiento de cuarzo proporciona un cronometraje preciso y un mantenimiento mínimo para un reloj confiable y sin preocupaciones.",
+     category: "women's clothing",
+     image: "https://m.media-amazon.com/images/I/71O4kVJcuDL._AC_SY879_.jpg",
      rating: {
-       "rate": 4.7,
-       "count": 500
+       "rate": 4.5,
+       "count": 580
      }
    },
    {
      id: 4,
-     title: "Mens Casual Slim Fit",
-     price: 15.99,
-     description: "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+     title: "Casio Reloj analógico MQ24-7B2",
+     price: 98.99,
+     description: "Reloj redondo con esfera blanca con logotipo y marcadores de números arábigos.Caja de plástico de 1.378 in con ventana protectora de esfera de cristal de resin",
      category: "men's clothing",
-     image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+     image: "https://m.media-amazon.com/images/I/516s1Ljzp6L._AC_SY879_.jpg",
      rating: {
-       "rate": 2.1,
-       "count": 430
+       "rate": 4.5,
+       "count": 420
      }
    },
    {
      id: 5,
-     title: "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+     title: "Ferragamo Reloj suizo para mujer Colección Cuir",
      price: 695,
-     description: "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+     description: "Elegante diámetro de la caja de 1.339 in con esfera Guilloche con marca Ferragamo Gancino a las 8 en punto",
      category: "jewelery",
-     image: "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+     image: "https://m.media-amazon.com/images/I/61v1JjEk7JL._AC_SY675_.jpg",
      rating: {
        "rate": 4.6,
-       "count": 400
+       "count": 800
      }
    },
    {
      id: 6,
-     title: "Solid Gold Petite Micropave ",
+     title: "Asan Ge Reloj ",
      price: 168,
      description: "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
      category: "jewelery",
-     image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+     image: "https://m.media-amazon.com/images/I/71zj2YiutBL._AC_SX679_.jpg",
      rating: {
        "rate": 3.9,
        "count": 70
@@ -81,11 +81,11 @@ export class ProductoService {
    },
    {
      id: 7,
-     title: "White Gold Plated Princess",
+     title: "VPSTAY Reloj de seguimiento de actividad",
      price: 9.99,
-     description: "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+     description: "VPSTAY Reloj de seguimiento de actividad física con monitor de oxígeno en sangre y frecuencia cardíaca 24/7, IP68 impermeable, contador de calorías, podómetro, rastreador de actividad de salud y",
      category: "jewelery",
-     image: "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+     image: "https://m.media-amazon.com/images/I/61bhDXo+A0L._AC_SY300_SX300_.jpg",
      rating: {
        "rate": 3,
        "count": 400
@@ -93,11 +93,11 @@ export class ProductoService {
    },
    {
      id: 8,
-     title: "Pierced Owl Rose Gold Plated Stainless Steel Double",
-     price: 10.99,
-     description: "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+     title: "Reloj de seguimiento de actividad física",
+     price: 70.99,
+     description: "Monitoreo del ritmo cardíaco y del sueño: el rastreador de ejercicios monitorea su frecuencia cardíaca automáticamente todo el día, y puede seleccionar el modo manual a través de la aplicación. El reloj de fitness también monitorea tu sueño por la noche, proporcionando un análisis detallado de la calidad de tu sueño (sueño profundo, sueño ligero, tiempo despierto). Es un asesor de salud para mujeres y hombres en la vida diaria.",
      category: "jewelery",
-     image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+     image: "https://m.media-amazon.com/images/I/714FOfK5O+L._AC_SX466_.jpg",
      rating: {
        "rate": 1.9,
        "count": 100
@@ -105,14 +105,14 @@ export class ProductoService {
    },
    {
      id: 9,
-     title: "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+     title: "Blekon Reloj  ",
      price: 64,
-     description: "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+     description: "Reloj de enfermera perfecto para todos los profesionales médicos, incluyendo enfermeras, cirujanos, médicos y médicos de emergencia: con movimiento de cuarzo japonés analógico preciso de tres manecillas, esfera blanca con marcadores de 12 y 24 horas; manecillas luminosas de hora y minutos y un segundero rojo altamente visible que hace que tomar lecturas precisas de pulso sea muy fácil",
      category: "electronics",
-     image: "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+     image: "https://m.media-amazon.com/images/I/61TNKS2a59L._AC_SY675_.jpg",
      rating: {
-       "rate": 3.3,
-       "count": 203
+       "rate": 8.2,
+       "count": 773
      }
    }
  ]
